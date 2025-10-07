@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  color: #f48c06;
+}
+
+h1,
+h2,
+h4 {
+  color: #2f327d;
+}
