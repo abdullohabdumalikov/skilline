@@ -1,61 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-import logo1 from "./assets/images/logo1.png";
-import negrgirl from "./assets/images/negr-girl.png";
+import Header from "./components/Header/Header";
+import Tools from "./components/tools/Tools";
 
 function App() {
   return (
     <>
-      <header>
-        <nav className="fixed-nav">
-          <img src={logo1} alt="" />
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Careers</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">About Us</a>
-            </li>
-            <li>
-              <button>Login</button>
-            </li>
-            <li>
-              <button className="sign">Sign Up</button>
-            </li>
-          </ul>
-        </nav>
-        <nav>
-          <div className="text">
-            <h1>
-              <span>Studying</span> Online is now much easier
-            </h1>
-            <p>
-              Skilline is an interesting platform that will teach you in more an
-              interactive way
-            </p>
-            <div className="vatch">
-              <button>Join for free</button>
-
-              <button>
-                <a
-                  target="_blank"
-                  href="https://youtu.be/Yn9HZHVOsog?list=RDYn9HZHVOsog"
-                >
-                  <i class="fa-solid fa-play"></i>
-                </a>
-              </button>
-              <p>Watch how it works</p>
-            </div>
-          </div>
-          <img src={negrgirl} alt="" />
-        </nav>
-      </header>
+      <Header />
       <main>
         <section className="sect1">
           <p>Trusted by 5,000+ Companies Worldwide</p>
@@ -139,7 +90,16 @@ function App() {
             </div>
           </div>
         </section>
-        <section></section>
+        <section className="sect3">
+          <h2>
+            Our <span>Features</span>
+          </h2>
+          <p>
+            This very extraordinary feature, can make learning activities more
+            efficient
+          </p>
+          <Tools/>
+        </section>
       </main>
     </>
   );

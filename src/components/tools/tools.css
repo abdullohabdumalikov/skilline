@@ -1,0 +1,23 @@
+.tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 236px;
+}
+
+.tools-text h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+.tools-text p {
+  /* width: 568px; */
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 180%;
+  letter-spacing: 2%;
+  color: #696984;
+}
