@@ -264,3 +264,22 @@
   text-decoration: underline;
   text-decoration-style: solid;
 }
+
+.sect3 h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sect3 p {
+  color: #696984;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 180%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 113px;
+}
