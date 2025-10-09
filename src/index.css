@@ -18,8 +18,8 @@ h4 {
   color: #2f327d;
 }
 
-
-nav, section{
+nav,
+section {
   margin: 0 auto;
-  width: 90%;
+  width: 1400px;
 }
