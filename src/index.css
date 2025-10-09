@@ -17,3 +17,9 @@ h2,
 h4 {
   color: #2f327d;
 }
+
+
+nav, section{
+  margin: 0 auto;
+  width: 90%;
+}
